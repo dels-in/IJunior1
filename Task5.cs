@@ -11,8 +11,5 @@ public class Task5
         firstName = lastName;
         lastName = middleName;
         Console.WriteLine($"Ваше имя: {firstName}. Ваша фамилия: {lastName}");
-        
-
-
     }
 }
