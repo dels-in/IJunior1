@@ -4,13 +4,13 @@ public class Task6
 {
     static void Main(string[] args)
     {
-        double row = 3;
-        double images = 52;
+        int row = 3;
+        int images = 52;
         
-        int fullRows = (int) (images / row);
-        int remainedImages = (int)Math.Round(((images/row - fullRows) * row));
+        int fullRows = images / row;
+        int remainedImages = images%row;
         
         Console.WriteLine($"Количество полностью заполненных рядов: {fullRows}." +
-                          $"Количество оставшихся картинок: {remainedImages}");
+                          $"\nКоличество оставшихся картинок: {remainedImages}");
     }
 }
