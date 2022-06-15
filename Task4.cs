@@ -4,7 +4,6 @@ public class Task4
 {
     static void Main(string[] args)
     {
-
         Console.WriteLine($"Введите Ваше имя: ");
         string name = Console.ReadLine();
         Console.WriteLine($"Введите Ваш возраст: ");
