@@ -6,10 +6,10 @@ public class Task5
     {
         string lastName = "Влад";
         string firstName = "Черненко";
-        string mezhdyName = firstName;
+        string middleName = firstName;
         
         firstName = lastName;
-        lastName = mezhdyName;
+        lastName = middleName;
         Console.WriteLine($"Ваше имя: {firstName}. Ваша фамилия: {lastName}");
         
 
