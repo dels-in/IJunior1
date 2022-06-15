@@ -11,7 +11,7 @@ public class Task2
         char simbol = '1';
         long longNumber = 30000000000;
         bool isIStudent = true;
-        var variant = 40.5;
+        sbyte microNumber = -1;
         byte oneByte = 254;
         decimal deci = 0.0000000000000000000000000000000045m;
     }
